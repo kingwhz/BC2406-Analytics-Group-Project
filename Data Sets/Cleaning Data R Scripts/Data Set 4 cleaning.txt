@@ -1,0 +1,51 @@
+Choosing which columns to exclude:
+- whether the factor can be controlled/intervened
+- the factor is just a symptom at the moment of heart failure
+
+Columns excluded: (numbering follows dataDictionary.csv)
+9 body.temperature
+10 pulse
+11 respiration
+12 systolic.blood.pressure
+13 diastolic.blood.pressure
+14 map
+15 weight
+16 height
+20 Killip.grade
+32 leukemia
+37 CCI.score
+39 consciousness
+40 eye.opening
+41 verbal.response
+42 movement45 fio2
+46 acute.renal.failure
+47 LVEF
+48 left.ventricular.end.diastolic.diameter.LV
+49 mitral.valve.EMS
+50 mitral.valve.AMS
+51 EA
+52 tricuspid.valve.return.velocity
+53 tricuspid.valve.return.pressure
+61 time.of.death..days.from.admission.
+63 return.to.emergency.department.within.6.months (I saw some conflicting data)
+64 time.to.emergency.department.within.6.months
+65-163
+164 GCS
+
+Columns excluded to consider including (uncontrollable but useful in predicting readmission):
+20 Killip.grade
+37 CCI.score
+40 eye.opening
+41 verbal.response
+42 movement
+164 GCS
+
+
+Other things of note:
+7 visit.times previous visits are not necessarily for HF/may not have concluded HF
+19 NYHA = New York Heart Association
+20 Killip grade is a predictor of mortality.
+21 included myocardial infarction because heart attack and heart failure are different things
+37 Charlson Comorbidity Index predicts the ten-year mortality for a patient who may have a range of comorbid conditions.
+40-42 make up the Glasgow Coma Scale (column 164)
+62 this probably refers to the number of days from the patient's admission to readmission
