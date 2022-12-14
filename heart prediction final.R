@@ -1,5 +1,6 @@
 # SEM 4 GROUP 2 ================================================================
 # GOAL: Find out what contributes to heart disease (target == 1) ================
+# Edit as of 14/12/22: Added this to github
 
 # Importing Libraries ----------------------------------------------------------
 library(car)
