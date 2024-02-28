@@ -598,3 +598,4 @@ accuracy_table[6,3] = cart3_type2
 colnames(accuracy_table) = c("Model Accuracy In Percentage", "TYPE 1 ERROR RATE", "TYPE 2 ERROR RATE")
 accuracy_table
 
+
